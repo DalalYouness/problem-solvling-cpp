@@ -3,31 +3,32 @@ project(myc__probem_solving)
 
 set(CMAKE_CXX_STANDARD 20)
 
-add_executable(myc__probem_solving level1/problem1.cpp
-        level1/problem2.cpp
-        level1/problem3.cpp
-        level1/problem4.cpp
-        level1/problem5.cpp
-        level1/problem6.cpp
-        level1/problem7.cpp
-        level1/problem8.cpp
-        level1/problem9.cpp
-        level1/problem10.cpp
-        level1/problem11.cpp
-        level1/problem12.cpp
-        level1/problem13.cpp
-        level1/problem14.cpp
-        level1/problem15.cpp
-        level1/problem16.cpp
-        level1/problem17.cpp
-        level1/problem18.cpp
-        level1/problem19.cpp
-        level1/problem20.cpp
-        level1/problem21.cpp
-        level1/problem22.cpp
-        level1/problem23.cpp
-        level1/problem24.cpp
-        level1/problem25.cpp
-        level1/problem26.cpp
-        level1/problem27.cpp
+add_executable(myc__probem_solving "fundamentals /problem1.cpp"
+        "fundamentals /problem2.cpp"
+        "fundamentals /problem3.cpp"
+        "fundamentals /problem4.cpp"
+        "fundamentals /problem5.cpp"
+        "fundamentals /problem6.cpp"
+        "fundamentals /problem7.cpp"
+        "fundamentals /problem8.cpp"
+        "fundamentals /problem9.cpp"
+        "fundamentals /problem10.cpp"
+        "fundamentals /problem11.cpp"
+        "fundamentals /problem12.cpp"
+        "fundamentals /problem13.cpp"
+        "fundamentals /problem14.cpp"
+        "fundamentals /problem15.cpp"
+        "fundamentals /problem16.cpp"
+        "fundamentals /problem17.cpp"
+        "fundamentals /problem18.cpp"
+        "fundamentals /problem19.cpp"
+        "fundamentals /problem20.cpp"
+        "fundamentals /problem21.cpp"
+        "fundamentals /problem22.cpp"
+        "fundamentals /problem23.cpp"
+        "fundamentals /problem24.cpp"
+        "fundamentals /problem25.cpp"
+        "fundamentals /problem26.cpp"
+        "fundamentals /problem27.cpp"
+        fundamentals/problem28.cpp
 )
